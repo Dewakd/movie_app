@@ -37,7 +37,7 @@ class RecommendWidget extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 10),
                   child: Image.asset(
-                    "images/$i.jpeg",
+                    "images/$i.jpg",
                     height: 100,
                     width: 150,
                     fit: BoxFit.cover,

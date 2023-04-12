@@ -13,8 +13,8 @@ class MoviePage extends StatelessWidget {
           Opacity(
             opacity: 0.4,
             child: Image.asset(
-              "images/coverjpg",
-              height: 20,
+              "images/cover.jpg",
+              height: 380,
               width: double.infinity,
               fit: BoxFit.cover,
             ),
@@ -68,7 +68,7 @@ class MoviePage extends StatelessWidget {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(20),
                             child: Image.asset(
-                              "images/1.jpeg",
+                              "images/1.jpg",
                               height: 250,
                               width: 180,
                             ),
@@ -101,7 +101,7 @@ class MoviePage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Suzume",
+                          "Mencuri Raden Saleh",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 30,
@@ -110,7 +110,7 @@ class MoviePage extends StatelessWidget {
                         ),
                         SizedBox(height: 15),
                         Text(
-                          "Perjalanan Suzume dimulai di sebuah kota yang tenang di Kyushu (terletak di Barat daya Jepang) ketika dia bertemu dengan seorang pria muda yang mengatakan kepadanya, 'Saya sedang mencari pintu.' Apa yang Suzume temukan adalah satu pintu lapuk yang berdiri tegak di tengah reruntuhan seolah terlindung dari malapetaka apa pun yang melanda. Tampaknya ditarik oleh kekuatannya, Suzume meraih kenopnya... Pintu-pintu itu mulai terbuka satu demi satu di seluruh Jepang, melepaskan kehancuran pada siapa pun yang berada di dekatnya. Suzume harus menutup portal ini untuk mencegah bencana lebih lanjut",
+                          "Menceritakan kisah dari beberapa anak muda yang pertama ada Piko (Iqbaal Ramadhan) seorang mahasiswa seni rupa yang tengah mencari uang. Ia pun bekerja sebagai seniman yang memalsukan lukisan agar bisa membebaskan sang ayah dari penjara.",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
