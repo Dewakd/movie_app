@@ -37,7 +37,7 @@ class NewMoviesWidget extends StatelessWidget {
               for (int i = 1; i < 11; i++)
                 InkWell(
                   onTap: () {
-                    Navigator.pushNamed(context, "moviepage");
+                    Navigator.pushNamed(context, "moviePage");
                   },
                   child: Container(
                     width: 190,
@@ -63,7 +63,7 @@ class NewMoviesWidget extends StatelessWidget {
                             topRight: Radius.circular(10),
                           ),
                           child: Image.asset(
-                            "images/1$i.jpeg",
+                            "images/$i.jpg",
                             height: 200,
                             width: 200,
                             fit: BoxFit.cover,
@@ -86,7 +86,7 @@ class NewMoviesWidget extends StatelessWidget {
                               ),
                               SizedBox(height: 5),
                               Text(
-                                "Anime",
+                                "Action",
                                 style: TextStyle(
                                   color: Colors.white54,
                                 ),

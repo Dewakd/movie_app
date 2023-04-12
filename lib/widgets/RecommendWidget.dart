@@ -1,25 +1,28 @@
 import 'package:flutter/material.dart';
 
-class RecommendWidget extends StatelessWidget{
+class RecommendWidget extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(padding: EdgeInsets.symmetric(horizontal: 10),
-        child: Row( 
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text("Recommended",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
-              fontWeight: FontWeight.w500,
+        Padding(
+          padding: EdgeInsets.symmetric(horizontal: 10),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "Recommended",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
-              Text("See All",
-            style: TextStyle(
-              color: Colors.white54,
-              fontSize: 16,
+              Text(
+                "See All",
+                style: TextStyle(
+                  color: Colors.white54,
+                  fontSize: 16,
                 ),
               ),
             ],
@@ -30,15 +33,16 @@ class RecommendWidget extends StatelessWidget{
           scrollDirection: Axis.horizontal,
           child: Row(
             children: [
-            for(int i=1; i<11; i++)
-              Padding(padding: EdgeInsets.only(left: 10),
-              child: Image.asset(
-                "images/1$i.jpeg",
-                height: 100,
-                width: 150,
-                fit: BoxFit.cover,
-              ),
-              ),
+              for (int i = 1; i < 11; i++)
+                Padding(
+                  padding: EdgeInsets.only(left: 10),
+                  child: Image.asset(
+                    "images/$i.jpeg",
+                    height: 100,
+                    width: 150,
+                    fit: BoxFit.cover,
+                  ),
+                ),
             ],
           ),
         )

@@ -53,7 +53,7 @@ class CategoryPage extends StatelessWidget {
                             ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image.asset(
-                                "images/1$i.jpeg",
+                                "images/$i.jpg",
                                 height: 70,
                                 width: 90,
                                 fit: BoxFit.cover,

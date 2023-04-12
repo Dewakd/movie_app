@@ -40,7 +40,7 @@ class UpcomingWidget extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
                     child: Image.asset(
-                      "images/up1$i.jpeg",
+                      "images/up$i.jpeg",
                       height: 180,
                       width: 300,
                       fit: BoxFit.cover,
